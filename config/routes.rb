@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   #changing root (homepage) from rails splace to new page
   #get '/', to: 'applocation#hello'   or
-  root 'applocation#hello'
+  root 'application#hello'
 end
